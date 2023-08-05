@@ -46,10 +46,10 @@
         </nav>
         <ul class="header__list">
           <li class="header__item">
-            <button class="header__button" type="button">Sign In</button>
+            <button class="header__button-white" type="button">Sign In</button>
           </li>
           <li class="header__item">
-            <button class="header__button" type="button">Sign Up</button>
+            <button class="header__button-green" type="button">Sign Up</button>
           </li>
         </ul>
         <img
@@ -71,14 +71,14 @@
             </p>
             <div>
               <button class="hero__button" type="button">Get started</button>
-              <button class="hero__button-play" type="button">
+              <a class="hero__link">
                 <img
-                  class="hero__button-icon"
+                  class="hero__link-icon"
                   src="./images/02-hero/play-icon.svg"
                   alt="play icon"
                 />
                 Watch the Video
-              </button>
+              </a>
             </div>
           </div>
 
@@ -87,7 +87,6 @@
             src="./images/02-hero/hero-img.svg"
             alt="product application"
             width="610"
-            height="555"
           />
         </div>
       </section>
@@ -97,28 +96,44 @@
           <h2 class="product__title">Product was Built Specifically for You</h2>
           <ul class="product__list">
             <li class="product__item">
-              <img src="./images/03-product/icon-1.svg" alt="icon 1" />
+              <img
+                src="./images/03-product/icon-1.svg"
+                alt="icon 1"
+                width="54"
+              />
               <h3 class="product__headline">First click tests</h3>
               <p class="product__text">
                 While most people enjoy casino gambling,
               </p>
             </li>
             <li class="product__item">
-              <img src="./images/03-product/icon-2.svg" alt="icon 2" />
+              <img
+                src="./images/03-product/icon-2.svg"
+                alt="icon 2"
+                width="54"
+              />
               <h3 class="product__headline">Design surveys</h3>
               <p class="product__text">
                 Sports betting, lottery and bingo playing for the fun
               </p>
             </li>
             <li class="product__item">
-              <img src="./images/03-product/icon-3.svg" alt="icon 3" />
+              <img
+                src="./images/03-product/icon-3.svg"
+                alt="icon 3"
+                width="54"
+              />
               <h3 class="product__headline">Preference tests</h3>
               <p class="product__text">
                 The Myspace page defines the individual.
               </p>
             </li>
             <li class="product__item">
-              <img src="./images/03-product/icon-4.svg" alt="icon 4" />
+              <img
+                src="./images/03-product/icon-4.svg"
+                alt="icon 4"
+                width="54"
+              />
               <h3 class="product__headline">Five second tests</h3>
               <p class="product__text">
                 Personal choices and the overall personality of the person.
@@ -161,6 +176,7 @@
               class="management__image"
               src="./images/04-management/management.svg"
               alt="folders & docs"
+              width="540"
             />
           </div>
         </div>
@@ -173,6 +189,7 @@
               class="customer__image"
               src="./images/05-customer/customer.svg"
               alt="laptop"
+              width="540"
             />
           </div>
           <div class="customer__wrap">
@@ -189,6 +206,7 @@
                   class="customer__icon"
                   src="./images/05-customer/icon-yellow.svg"
                   alt="icon check"
+                  width="35"
                 />
                 <p class="customer__text">
                   Never worry about overpaying for your energy again.
@@ -199,6 +217,7 @@
                   class="customer__icon"
                   src="./images/05-customer/icon-red.svg"
                   alt="icon check"
+                  width="35"
                 />
                 <p class="customer__text">
                   We will only switch you to energy companies that we trust and
@@ -210,6 +229,7 @@
                   class="customer__icon"
                   src="./images/05-customer/icon-blue.svg"
                   alt="icon check"
+                  width="35"
                 />
                 <p class="customer__text">
                   We track the markets daily and know where the savings are.
@@ -252,6 +272,7 @@
               class="collaborative__image"
               src="./images/06-collaborative/collaboration.svg"
               alt="boxes & images"
+              width="540"
             />
           </div>
         </div>
@@ -270,6 +291,7 @@
                 class="process__image"
                 src="./images/07-process/avatar-1.png"
                 alt="people photo"
+                width="98"
               />
               <p class="process__text">I can take care of your pitch</p>
             </li>
@@ -279,6 +301,7 @@
                 class="process__image"
                 src="./images/07-process/avatar-2.png"
                 alt="people photo"
+                width="98"
               />
             </li>
             <li class="process__item">
@@ -286,6 +309,7 @@
                 class="process__image"
                 src="./images/07-process/avatar-3.png"
                 alt="people photo"
+                width="98"
               />
               <p class="process__text">I can take care of your pitch</p>
             </li>
@@ -295,6 +319,7 @@
                 class="process__image"
                 src="./images/07-process/avatar-4.png"
                 alt="people photo"
+                width="98"
               />
             </li>
           </ul>
@@ -318,6 +343,7 @@
                   class="strategies__image"
                   src="./images/08-strategies/image-1.jpg"
                   alt="business photo"
+                  width="350"
                 />
                 <p class="strategies__desc">
                   By <span class="strategies__text-wrap">Wahid Ari</span> | 03
@@ -334,6 +360,7 @@
                   class="strategies__image"
                   src="./images/08-strategies/image-2.jpg"
                   alt="business photo"
+                  width="350"
                 />
                 <p class="strategies__desc">
                   By <span class="strategies__text-wrap">Wahid Ari</span> | 03
@@ -350,6 +377,7 @@
                   class="strategies__image"
                   src="./images/08-strategies/image-3.jpg"
                   alt="business photo"
+                  width="350"
                 />
                 <p class="strategies__desc">
                   By <span class="strategies__text-wrap">Wahid Ari</span> | 03
@@ -452,150 +480,245 @@
           <ul class="clients__list">
             <li class="clients__item">
               <div class="clients__wrapper">
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
                 <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
                   src="./images/09-clients/star-stroke.svg"
                   alt="icon star"
                 />
               </div>
-              <p>
+              <p class="clients__text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img src="./images/09-clients/ellipse-1.png" alt="people photo" />
+              <img
+                src="./images/09-clients/ellipse-1.png"
+                alt="people photo"
+                width="50"
+              />
               <div>
-                <h3>Wahid Ari</h3>
-                <p>Designer</p>
+                <h3 class="clients__headline">Wahid Ari</h3>
+                <p class="clients__desc">Designer</p>
               </div>
             </li>
             <li class="clients__item">
               <div class="clients__wrapper">
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
                 <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
                   src="./images/09-clients/star-stroke.svg"
                   alt="icon star"
                 />
               </div>
-              <p>
+              <p class="clients__text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img src="./images/09-clients/ellipse-2.png" alt="people photo" />
+              <img
+                src="./images/09-clients/ellipse-2.png"
+                alt="people photo"
+                width="50"
+              />
               <div>
-                <h3>Wahid Ari</h3>
-                <p>Designer</p>
+                <h3 class="clients__headline">Wahid Ari</h3>
+                <p class="clients__desc">Designer</p>
               </div>
             </li>
             <li class="clients__item">
               <div class="clients__wrapper">
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
-                <img src="./images/09-clients/star-fill.svg" alt="icon star" />
                 <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
+                  src="./images/09-clients/star-fill.svg"
+                  alt="icon star"
+                />
+                <img
+                  class="clients__icon"
                   src="./images/09-clients/star-stroke.svg"
                   alt="icon star"
                 />
               </div>
-              <p>
+              <p class="clients__text">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <img src="./images/09-clients/ellipse-3.png" alt="people photo" />
+              <img
+                src="./images/09-clients/ellipse-3.png"
+                alt="people photo"
+                width="50"
+              />
               <div>
-                <h3>Wahid Ari</h3>
-                <p>Designer</p>
+                <h3 class="clients__headline">Wahid Ari</h3>
+                <p class="clients__desc">Designer</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <article>
-        <div>
-          <h2>Join 100 Compannies who boost their business with Product</h2>
-          <button type="button">Get This</button>
+      <article class="promo">
+        <div class="promo__container">
+          <div class="promo__wrapper">
+            <h2 class="promo__title">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button class="promo__button" type="button">Get This</button>
+          </div>
+          <img
+            class="promo__image"
+            src="./images/10-promo/charts.png"
+            alt="screen charts"
+            width="351"
+          />
         </div>
-        <img src="./images/10-promo/charts.png" alt="screen charts" />
       </article>
     </main>
 
-    <footer>
-      <div>
-        <div>
-          <a href="">
-            <img src="./images/01-header/logo.svg" alt="logo" />
-            Product
-          </a>
-          <ul>
-            <li>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__wrapper">
+          <div class="footer__logo-wrap">
+            <a class="footer__logo-link" href="">
               <img
-                src="./images/11-footer/instagram.svg"
-                alt="instagram icon"
+                class="footer__logo-icon"
+                src="./images/01-header/logo.svg"
+                alt="logo"
               />
-            </li>
-            <li>
-              <img src="./images/11-footer/facebook.svg" alt="facebook icon" />
-            </li>
-            <li>
-              <img src="./images/11-footer/twitter.svg" alt="twitter icon" />
-            </li>
-          </ul>
+              Product
+            </a>
+            <ul class="footer__list-social">
+              <li class="footer__item-social">
+                <img
+                  class="footer__icon-social"
+                  src="./images/11-footer/instagram.svg"
+                  alt="instagram icon"
+                />
+              </li>
+              <li class="footer__item-social">
+                <img
+                  class="footer__icon-social"
+                  src="./images/11-footer/facebook.svg"
+                  alt="facebook icon"
+                />
+              </li>
+              <li class="footer__item-social">
+                <img
+                  class="footer__icon-social"
+                  src="./images/11-footer/twitter.svg"
+                  alt="twitter icon"
+                />
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__resource-wrap">
+            <h2 class="footer__headline">Resource</h2>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <p class="footer__desc">About Us</p>
+              </li>
+              <li class="footer__item">
+                <p class="footer__desc">Blog</p>
+              </li>
+              <li class="footer__item">
+                <p class="footer__desc">Contact</p>
+              </li>
+              <li class="footer__item">
+                <p class="footer__desc">FAQ</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__legal-wrap">
+            <h2 class="footer__headline">Legal Stuff</h2>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <p class="footer__desc">Disclaimer</p>
+              </li>
+              <li class="footer__item">
+                <p class="footer__desc">Financing</p>
+              </li>
+              <li class="footer__item">
+                <p class="footer__desc">Privacy Policy</p>
+              </li>
+              <li class="footer__item">
+                <p class="footer__desc">Terms of Service</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__knowing-wrap">
+            <h2 class="footer__headline">
+              Knowing you're always on the best energy deal.
+            </h2>
+            <label class="footer__label" for="">
+              <input class="footer__input" type="text" />
+            </label>
+            <img
+              class="footer__icon"
+              src="./images/11-footer/mobile.svg"
+              alt="mobile icon"
+            />
+            <button class="footer__button" type="submit">Sign up Now</button>
+          </div>
         </div>
 
-        <div>
-          <h2>Resource</h2>
-          <ul>
-            <li>
-              <p>About Us</p>
-            </li>
-            <li>
-              <p>Blog</p>
-            </li>
-            <li>
-              <p>Contact</p>
-            </li>
-            <li>
-              <p>FAQ</p>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>Legal Stuff</h2>
-          <ul>
-            <li>
-              <p>Disclaimer</p>
-            </li>
-            <li>
-              <p>Financing</p>
-            </li>
-            <li>
-              <p>Privacy Policy</p>
-            </li>
-            <li>
-              <p>Terms of Service</p>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h2></h2>
-          <label for="">
-            <input type="text" />
-          </label>
-          <img src="./images/11-footer/mobile.svg" alt="mobile icon" />
-          <button type="submit">Sign up Now</button>
-        </div>
+        <p class="footer__copyright">
+          Made With Love By Figmaland All Right Reserved
+        </p>
       </div>
-
-      <p>Made With Love By Figmaland All Right Reserved</p>
     </footer>
   </body>
 </html>
